@@ -1,24 +1,36 @@
 # alura-tracker
 
-## Project setup
-```
-npm install
-```
+Projeto em VUE.JS versão 3, realizado como exercício do curso de VUE.JS da Alura
 
-### Compiles and hot-reloads for development
+## Criação e primeira execução do projeto
 ```
+vue create alura-tracker
+
+cd alura-tracker
+
 npm run serve
 ```
 
-### Compiles and minifies for production
+## Instalação e Configuração do Bulma e FontAwsome
+
+Para o uso do Bulma
+
+Visitando https://bulma.io/documentation/overview/start/
+
+Copiando ![img.png](img.png) para o head do index.html
+
+
+Para o uso do FontAwnsome
+
+executar o comando 
 ```
-npm run build
+npm i --save-dev @fortawesome/fontawesome-free
 ```
 
-### Lints and fixes files
+import no arquivo main.ts
 ```
-npm run lint
+import '@fortawesome/fontawesome-free/css/all.css'
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## 
