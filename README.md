@@ -99,3 +99,10 @@ methods: {
 }
 ```
 
+## Criando uma lista de elementos
+
+Utilizamos a diretiva v-for para iterar sobre uma lista
+
+```
+<TarefaComp v-for="(tarefa, index) in tarefas" :key="index" :tarefa="tarefa" />
+```
