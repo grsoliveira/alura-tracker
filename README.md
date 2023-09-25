@@ -49,3 +49,12 @@ A passagem de parametros entre componentes é realizada através do : (dois pont
 ```
 <Cronometro :tempoEmSegundos="tempoEmSegundos"/>
 ```
+
+## Linkando propriedades com o estado do componente
+
+O link entre propriedades do html e elementos do estado da aplicação pode ser feito utilizando : (dois pontos)
+
+```
+<button class="button" @click="finalizar" :disabled="!cronometroRodando">
+```
+No angular, utilizamos o [(ngModel)] para realizar este mesmo binding.
