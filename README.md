@@ -33,4 +33,10 @@ import '@fortawesome/fontawesome-free/css/all.css'
 ```
 
 
-## 
+## Primeiro componente
+
+Estado do componente é definido pela função interna data()
+
+Valores calculados devem ser definidos dentro do atributo computed()
+
+Todos os métodos do componente devem ser definidos dentro do atributo methods
